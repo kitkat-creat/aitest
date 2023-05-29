@@ -4,7 +4,7 @@ import gradio
 
 
 def askGPT(text):
-    openai.api_key = "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"
+    openai.api_key = "###"
     response = openai.Completion.create(
         engine = "text-davinci-003",
         prompt = text,
